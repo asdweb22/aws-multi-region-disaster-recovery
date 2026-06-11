@@ -15,21 +15,7 @@ The objective of this project is to ensure High Availability, Business Continuit
 
 ## Architecture Diagram
 
-Users
-|
-|
-Route 53
-(Failover Routing)
-|
--
-
-| |
-Primary Region Secondary Region
-Mumbai (ap-south-1) North Virginia (us-east-1)
-| |
-ALB ALB
-| |
-EC2 (NGINX) EC2 (NGINX)
+![alt text](image.png)
 
 ---
 
